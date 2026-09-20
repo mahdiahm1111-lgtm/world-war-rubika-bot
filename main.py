@@ -1,5 +1,5 @@
 import asyncio
-from rubika_bot_apiapi import Robot
+from rubika_bot_api.api import Robot
 from rubika_bot_api import filters
 
 from config import load_settings
