@@ -63,7 +63,7 @@ def require_owner(sender):
     if sender != settings.owner_guid:
         raise PermissionError("این فرمان فقط برای مالک ربات است.")
 
-@bot.on_message(filters=filters.pv & filters.text)
+@bot.on_message(filters=filters.text)
 async def handler(bot_instance, m):
     try:
         text = (m.text or "").strip()
