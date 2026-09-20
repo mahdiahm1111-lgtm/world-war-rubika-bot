@@ -1,11 +1,11 @@
 import asyncio
-from rubika_bot_api.api import Robot
+from rubika_bot_apiapi import Robot
 from rubika_bot_api import filters
 
-from .config import load_settings
-from .db import Database
-from .game import Game, fmt
-from .data import COUNTRIES
+from config import load_settings
+from db import Database
+from game import Game, fmt
+from data import COUNTRIES
 
 settings = load_settings()
 db = Database(settings.db_path)
