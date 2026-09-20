@@ -1,1 +1,1 @@
-from app.main import *
+from main import *
