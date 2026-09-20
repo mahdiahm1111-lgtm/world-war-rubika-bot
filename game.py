@@ -1,5 +1,5 @@
 import random
-from .data import COUNTRIES, COUNTRY_BY_KEY
+from data import COUNTRIES, COUNTRY_BY_KEY
 
 def fmt(n: int) -> str:
     trans = str.maketrans("0123456789,-", "۰۱۲۳۴۵۶۷۸۹،−")
